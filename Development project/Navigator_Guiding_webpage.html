@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blind Guiding Navigator</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--CSS-->
+    <link href="style/Navigator.css" rel="stylesheet">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hed">
+        <h3>Core Project-ECE 2023</h3>
+    </div>
+    <div class="container" id="con">
+        <div class="row" id="con">
+            <div class="col-2">
+                <!--<div class=" col"   id="cir-s"></div>
+                <div class="col" id="title">
+                     <h1>Blind Guiding Navigator <span class="tit-1"> Using IOT </span></h1>
+                </div> 
+
+                <svg height="100px" width="100px">
+                    <circle cx="40" cy="50" r="10" id="cir"></circle>  
+                    <circle cx="70" cy="50" r="10" id="cir"></circle>    
+                </svg>  -->
+                <svg height="120" width="120">
+                    <defs>
+                      <filter id="f1" x="0" y="0" width="100%" height="100%">
+                        <feOffset result="offOut" in="SourceGraphic" dx="20" dy="20" />
+                        <feBlend in="SourceGraphic" in2="offOut" mode="normal" />
+                      </filter>
+                    </defs>
+                   <circle cx="40" cy="50" r="40" stroke="orange" stroke-width="1" fill="gold" />
+                   <circle cx="60" cy="70" r="40" stroke="orange" stroke-width="2" fill="gold" />
+              </svg>
+            </div>  
+        </div>
+
+        <div class="row">
+          <div class="col" id="title">
+            <div class="text-center">
+                <h1>Blind Guiding Navigator <br>
+                    <span class="tit-1"> Using IOT</span>  
+                </h1>
+              </div>  
+          </div>
+        </div>  
+
+          <div class="row">
+            <div class="col" id="cir-s">
+              <p class="description">Enter your Navigator tool <span style="color:brown">IP address</span>  bellow</p>
+            </div>
+             <!--Logo image-->
+            <div class="col-3" id="img">
+              <img src="images.jpg"  class="img-fluid">
+            </div>
+
+            <div class="col">
+              <svg height="120" width="100" id="circle">
+                <defs>
+                  <filter id="f1" x="0" y="0" width="100%" height="100%">
+                    <feOffset result="offOut" in="SourceGraphic" dx="20" dy="20" />
+                    <feBlend in="SourceGraphic" in2="offOut" mode="normal" />
+                  </filter>
+                </defs>
+               <circle cx="40" cy="50" r="40" stroke="orange" stroke-width="1" fill="gold"  />
+               <circle cx="60" cy="70" r="40" stroke="orange" stroke-width="2" fill="gold" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="text-center">
+              <form action="https://www.google.com/search" methode="GET">
+                <input class="search" type="text" name="q" placeholder="Navigator IP address" />
+                <input type="submit" class="submit">
+
+              </form>
+            </div>
+          </div>
+    </div>
+    <!--Bio of team-->
+    <div class="container" id="con-2">
+      <div class="row">
+        <div class="text-center" id="college">
+          <h1>Nandha College of Technology</h1>
+          <h4>Final year-Project</h4>
+          
+        </div>
+        <div class="col">
+          <p class="name">Gowthami</p>
+          <p class="team">Team Lead <br>
+            ECE
+          </p>
+          
+        </div>
+
+        <div class="col">
+          <p class="name">Gowtham</p>
+          <p class="team">Team Member<br>
+           ECE
+          </p>
+          
+        </div>
+
+        <div class="col">
+          <p class="name">Jayachandhran </p>
+          <p class="team">Team Member<br>
+            ECE
+          </p>
+        </div>
+
+        <div class="col">
+          <p class="name">Manju </p>
+          <p class="team">Team Member<br>
+            ECE
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="text-center"  id="foot">
+          <h3>Thank you for visiting</h3>
+          <p>Web application done by</p>
+          <p >Gowthami</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    
+</body>
+</html>
