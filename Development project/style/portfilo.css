@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@500&display=swap');
+:root{
+    --pink:pink; /* it containing variable and value*/
+   --background:linear-gradient(to bottom,white,rgb(162, 162, 241),pink);
+   
+}
+
+*,*::before,
+*::after{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(162, 162, 241);
+    overflow-y: hidden;
+}
+.container-1{
+    max-width: 92rem; /*1rem == 16px(default)*/
+    position:relative;
+    z-index:-1;
+    background:var(--background);
+     /* background:linear-gradient(black,orange);*/
+    overflow:hidden;
+    margin: 10px auto;
+    padding: 0 4rem;
+}
+/*img{
+    width:100%;
+    height: 20px;
+    display: inline;
+    vertical-align: top;
+    top:-100px;
+    left:20px;
+   
+}
+/*img {
+    -webkit-user-drag: none; #element #auto
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    
+}*/
+ul>li{
+    float:right;
+    margin-left:10px;
+    list-style:none;
+    position:relative;
+    margin-top:0px ;
+    font-family:Dela Gothic One;
+    font-weight: bold;
+    top:-8rem;
+}
+a{
+    text-decoration:none;
+    cursor:pointer;
+}
+#logo{
+    width:50px;
+    height: 20px;
+    display:flex;
+    position: relative;
+    bottom:-50px;
+}
+#GP{
+    font-family: Dela Gothic One,roboto;
+    color:crimson;
+    position: relative;
+    bottom:-30px;
+    left:50px;
+    margin-bottom: 0px;
+}
+
+header{
+    width:100%;
+    overflow: hidden;
+}
+nav{
+    width:100%;
+    height: 650px;
+    z-index:50;
+    position: relative;
+   
+}
+/*p tag class selector*/
+
+.name{
+    font-family: Roboto;
+    font-size: 3rem;
+}
+#greeting{
+    font-size: 25px; 
+}
+.role{
+    font-size: 2.4rem;
+    color: rgb(122, 15, 51);
+
+}
+.location{
+    
+    font-size: 1.6rem; 
+   
+}
+
+.My-profile{
+    display:inline-block;
+}
+.profile{
+    width: 500px;
+}
+
+/*hire button*/
+.hire-button{
+    padding: 15px 40px;
+    background-color: green;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.website-button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.website-button:hover{
+    opacity: 0.6;
+}
+
+/*profile*/
+#profile{
+    width: 100px;
+    height: 100px;
+    border-radius:80px;
+    top:-500px;
+    right:-700px;
+    margin-left:150%;
+    
+}
+#profile-img{
+    display:flexbox;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius:230px;
+    top:-400px;
+    right:-700px;
+    border:1px solid plum;
+}
+.web-logo{
+    display: inline-block;
+    position:relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    z-index: 1;
+    top: -700rem;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: 10px;
+
+}
+
+
+/*circles*/
+.decoration{
+    display:flexbox;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top:-50px;
+    left:-45px;
+    background: var(--background);
+    border-radius:80px;
+   
+}
+.decoration-1,.decoration-2{
+    display:flexbox;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    top:-100px;
+    right: -150px;
+    background: var(--background);
+    border-radius:40px;
+    opacity:0.8;
+   
+}
+.decoration-2{
+    top:-400px;
+    right: -250px;
+    opacity: 0.5;
+}
+#decoration-circle{
+    /*width: 100px;
+    height: 100px;
+    border-radius:80px;
+    background: black;
+    margin-left:150%;
+    display:flexbox;
+    position: relative;
+    left:-45px;///
+    display:flexbox;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius:280px;
+    background: black;
+    top:-650px;
+    right: -48rem; 
+    z-index: -1;*/
+    display:flexbox;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius:380px;
+    background: black;
+    top:-700px;
+    right: -68rem; 
+    z-index: -1;
+
+}
+.col{
+    display: inline-block;
+    color: black;
+    width: 300px;
+    height: 100px;
+    background: pink;
+    border-radius: 5px;
+}
