@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emplyee Login Form</title>
+        <link rel="stylesheet" href="./Basicfrom.css">
+        <link rel="icon" type="image" href="media/user-icon.png">
+    </head>
+    <body>
+        <form class="employee-login">
+            <img  id="office-img" src="media/office.jpg" alt="office">
+            <h1>Employee Lo<span>gin</span></h1>
+            <p class="name">
+                <img id="user-icon-img" src="media/user-icon.png" alt="user-icon">
+                Your user name</p>
+            <div class="user">
+                <input type="text" placeholder="UserName" name="Username" required/>
+            </div>
+            <button class="submit-button" type="submit"  onmouseover="loginhover(this)"  onmouseout="loginactive(this)">
+                Login
+            </button>
+        </form>
+
+        <script>           
+            function loginhover(btn){
+                btn.style.backgroundColor="chocolate";     
+            }
+            function loginactive(btn){
+                btn.style.backgroundColor="blue";
+            }
+        </script>
+
+    </body>
+</html>

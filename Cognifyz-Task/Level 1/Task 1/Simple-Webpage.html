@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Finder</title>
+    <link rel="stylesheet" href="simplewebpage.css">
+    <link rel="icon"  type="image" href="https://cdn.vectorstock.com/i/preview-1x/99/57/travel-bus-logo-template-vector-46769957.jpg">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ol>
+                <li id="home">
+                    <a href="#">Home</a></li>
+                <li id="menu">
+                    <a href="#"> Login</a>
+                    <img id="location-icon-img" src="media/images.png" alt="user-icon">
+                </li>    
+                <li id="menu">
+                    <a href="#">My Bookings</a>
+                </li>    
+                
+            </ol>
+        </nav>
+        <h1 class="heading">B<span id="head-1">us</span> Fin<span id="head-2">der</span></h1>
+        <p>Effortlessly locate nearby <span id="bus-style">buses</span> and plan your route with our<span id="bus-style">Bus Finder App</span> </p>
+        <p>Simplify your daily commute</p>
+        <div class="row">
+            <div class="column bus">
+                <img  class="bus-img" src="media/buslogo.jpg" alt="bus">   
+            </div>
+            <div class="column gif">
+                <img id="bus-gif" src="https://cdn.dribbble.com/users/2374064/screenshots/4737393/bus-truning.gif" alt="bus-gif">
+            </div>
+
+            <div class="column road">
+                <!--p class="bus-commend">Find your bus</p>-->
+                <form class="location-form">
+                    <h1 id="bus-head">Search Your <span>bus</span></h1>
+                    <p class="name">
+                        <img id="location-icon-img" src="media/google search icon.png" alt="user-icon">
+                        Where you want to go
+                    </p>
+
+                    <div class="user">
+                        <input type="text" placeholder="Location" name="Username" autocomplete="off" required/>
+                    </div>
+                    <button class="submit-button" type="submit">Get Strated</button>
+                </form>
+        
+            </div>
+            
+        </div>
+
+    </div>    
+    
+</body>
+</html>

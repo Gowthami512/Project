@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    height: 100vh;
+
+}
+h1{
+    text-align: center;
+}
+.container{ 
+    width:100%;
+}
+.row{
+    display:flex;
+    content:" ";
+}
+.column{
+    min-width:30%;
+    min-height: 50vh;
+    /*background-color: aquamarine;*/
+}
+#img{
+    min-height:60vh;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.center{
+    display: block;
+    width:500px;
+    height: 70vh;
+    background:linear-gradient(45deg,white,rgb(215, 184, 216),rgb(119, 119, 170));
+    margin: 30px;
+    margin-left: 10rem;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding:50px;
+    border-radius: 10px;
+   
+
+}
+.day{
+    display: block;
+    color:blue;
+    font-family: "Metal Mania",sans-serif;
+    font-size: 50px;
+}
+.welcome{
+    color: brown;
+}
+.wishes{
+    font-family: 'Courier New', Courier, monospace;
+}
