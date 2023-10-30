@@ -41,7 +41,7 @@ a{
     border-radius: 20px;
 }
 .uk-card:hover{
-    opacity:0.8;
+    background:linear-gradient( rgb(218, 65, 141),white);
     cursor:pointer;
 
 }
