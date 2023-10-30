@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <link rel="icon" type="image" href="media/calculator.jpg">
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <h1>F<span>in</span>d<br>Ans<span>wer</span></h1>
+            </div>
+            <div class="right">
+                <div class="calculator">
+                    <h3>Calculator</h3>
+                    <div class="display">
+                        
+                    </div>
+                    <button class="btn"   onclick="cal('1')">
+                        1
+                    </button>
+                    <button class="btn"  onclick="cal('2')">
+                        2
+                    </button>
+                    <button class="btn"  onclick="cal(`3`)">
+                        3
+                    </button>
+                    <!--operator-->
+                    <button class="btn-operator" onclick="cal(`+`)">
+                        +
+                    </button><br>
+
+                    <button class="btn" onclick="cal(`4`)">
+                        4
+                    </button>
+                    <button class="btn" onclick="cal(`5`)">
+                        5
+                    </button>
+                    <button class="btn"  onclick="cal(`6`)">
+                        6
+                    </button>
+
+                    <!--operator-->
+                    <button class="btn-operator"  onclick="cal(`-`)">
+                        -
+                    </button><br>
+
+                    <button class="btn"   onclick="cal(`7`)">
+                        7
+                    </button>
+                    <button class="btn"  onclick="cal(`8`)">
+                        8
+                    </button>
+                    <button class="btn"  onclick="cal(`9`)">
+                        9
+                    </button>
+                    <!--operator-->
+                    <button class="btn-operator"  onclick="cal(`*`)">
+                        x
+                    </button><br>
+
+                    <button class="btn"  onclick="cal(`0`)">
+                        0
+                    </button>
+                    <!--operator-->
+                    <button class="btn"  onclick="cal(`/`)">
+                        /
+                    </button>
+                    <!--operator-->
+                    <button class="btn" onclick="cal(`.`)">
+                        .
+                    </button>
+                    <!--operator-->
+                    <button class="btn-operator"  onclick="cal('equal'); ">
+                        =
+                    </button><br>
+                    <button class="btn"  onclick="cal(`%`)">
+                        %
+                    </button>
+                    <button class="btn-operator" id="clr" onclick="cal(`clear`)">
+                        Clear
+                    </button>
+                </div>    
+        </div>
+    </div>
+    
+   <!--Script-->
+    <script src="calculator.js" ></script>
+    </body>
+</html>
