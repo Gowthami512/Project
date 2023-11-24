@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: montserrat;
+   
+
+}
+body{
+    background:linear-gradient(rgb(8, 8, 68),rgb(28, 28, 94));
+    color:azure;
+    animation: bg 2s linear 1s;
+}
+@keyframes bg{
+    25%{
+        background:linear-gradient(rgb(44, 44, 110),rgb(28, 28, 94));
+   
+    }
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+#logo-icon{
+    background: none;
+}
+h3{
+    padding: 10px;
+    background: palevioletred;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+}

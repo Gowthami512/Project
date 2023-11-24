@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGE CALCULATOR</title>
+    <link rel="stylesheet" href="agecalculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="display">
+        <span id="output"> </span>
+        <p>years</p>
+    </div>
+    <div class="con">
+        <div class="logo">
+            <img src="media/age.jpg" alt="age-logo"  draggable="false">
+        </div>
+       
+        <div class="main">
+            <h1><span id="dec-head-1">AGE</span> <span id="dec-head">CALCULATOR</span></h1>
+            <h3>Date of Birth</h3>
+            <div class="date-of-birth">
+                <form >
+                    <input type="date"  id="dd-mm-yy">
+                </form>
+        </div>
+       
+        
+        <div class="logo">
+            <img src="media/age_logo-1.drawio-removebg-preview.png" alt="age-logo"  draggable="false">
+        </div>
+        <div class="calculate-btn">
+            <button class="cal-btn" onclick="ageclc()" >Calculate</button>
+   
+        </div>
+       
+    </div>
+    
+    
+    <script>
+       const ageclc=()=>{
+        const today= new Date();
+        const birth_day=new Date(document.getElementById("dd-mm-yy").value);
+        
+
+        const date=birth_day.getDate();
+        const month=birth_day.getMonth();
+        const year=birth_day.getFullYear();
+
+        const cr_date=today.getDate();
+        const cr_month=today.getMonth();
+        const cr_year=today.getFullYear();
+
+        var age = cr_year - year;
+        var m = cr_month -month;
+        if (m < 0 || (m === 0 && cr_date < date)) {
+            age--;
+        }
+       
+        document.getElementById("output").innerHTML=age;
+
+       };
+      
+    </script>
+</body>
+</html>
