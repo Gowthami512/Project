@@ -189,9 +189,12 @@
     }
     .feature-bx1{
         position: absolute;
-        margin-top: -1rem;
+        margin-top: 7px;
         left:45%;
 
+    }
+    .feature-des-hd{
+        padding: 10px 0px 0px 20px; 
     }
     .feature-des-hd h3{
         font-size: 0.5rem;
@@ -207,8 +210,6 @@
         width: 200px;
         font-size: 6px;
     }
-    .feature-des1{
-        margin-bottom: 1px;
-    }
+   
 
 }
