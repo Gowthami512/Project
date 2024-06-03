@@ -78,6 +78,7 @@ nav ul li{
     padding: 15px 40px;
     position: absolute;
     right: 10rem;
+    cursor: pointer;
     
 }
 .dw-btn-bx button:hover{
@@ -90,6 +91,8 @@ nav ul li{
     background-color: black;
     margin-top: 5px;
     margin-left: 20rem;
+    cursor: pointer;
+   
 }
 button{
     cursor: pointer;
@@ -246,6 +249,7 @@ button{
 }
 
 .feature-page-title {
+    margin-top: 5rem;
     padding: 2rem 0px 0px 20px; 
     /* border: 1px solid brown; */
 }
@@ -261,6 +265,9 @@ button{
     font-weight:800;
     font-style: italic;
 
+}
+.feature-page-title .sec-haeading{
+    margin-left: 0px;
 }
 .feature-des-hd{
     display: flex;
@@ -556,6 +563,7 @@ button{
       position: absolute;
       left: 20%;
       top:0px;
-    }  
+    }
+  
    
   }
