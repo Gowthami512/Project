@@ -22,6 +22,7 @@
         }
         .logo-txt span{
             position: absolute;
+            font-size: 5px;
             margin-top: -1rem;
             left:100%;
         }
@@ -45,7 +46,7 @@
             margin-left: 0;
             padding: 5px 8px;
             position: absolute;
-            right: 0%;
+            right: 3%;
             top:13%;
             font-size: 5px;
         }
@@ -100,7 +101,7 @@
     
     }
     .fourth-lyr img, .fst-lyr img, .second-lyr img , .third-lyr  img,
-    .lyr img, .iphone-lyr img{
+    .lyr img, .iphone-lyr img,.ip-lyr-1 img{
         width:120px;
         height: 160px;
     }
@@ -123,17 +124,17 @@
     }
     .second-lyr{
         position: absolute;
-        right: 22px;
+        right: 18px;
         top:2rem;
     
     }
     .third-lyr{
-        right: 22px;
+        right: 20px;
         top:1.3rem;
         
     }
     .fourth-lyr{
-        right: 3.4rem;
+        right: 3.2rem;
         top:0.6rem;
     
     }
@@ -142,8 +143,8 @@
     }
     .sub-ttl-bx p{
         margin-top: 5px;
-        font-size: 6px;
-        width: 220px;
+        font-size: 5px;
+        width: 180px;
     }
     #srt-btn, #wtch-btn{
         padding: 5px 10px;
@@ -178,6 +179,7 @@
     
     }
     .feature-page-title {
+        margin-top: 2px;
         padding:10px 0px 0px 5px; 
     }
     .feature-page-title span{
@@ -197,7 +199,7 @@
         padding: 10px 0px 0px 20px; 
     }
     .feature-des-hd h3{
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         padding-left: 2px;
     }
     .feature-des-hd img{
@@ -209,6 +211,54 @@
         padding-left: 25px;
         width: 200px;
         font-size: 6px;
+    }
+    .pg-tit-1{
+        padding-left: 0px;
+    }
+    .feature-sec-page,.feature-sec-page .dsg-txt-pg1 .feature-des-hd{
+        position: absolute;
+        left:0%;
+    }
+    .feature-sec-page .feature-page-title {
+       margin-top: 2rem;
+    }
+    .feature-sec-page .feature-page-title  span{
+        position: absolute;
+        left: 3%;
+    }
+    .feature-sec-page .feature-page-title h1{
+        margin-top: 5px;
+        position: absolute;
+        left: 3%;
+    }
+    .feature-sec-page .dsg-txt-pg1 .feature-des-hd {
+        margin-left: 0px;
+        margin-top: 10px;
+    } 
+    .feature-sec-page .dsg-txt-pg1 .feature-des-hd img{
+        margin-top: 10px;
+        left:0%;
+
+    }
+    .feature-sec-page .dsg-txt-pg1 .feature-des-hd h3{
+        margin-top: 5px;
+        left:0%;
+
+    }
+    .feature-sec-page .dsg-txt-pg1  .sub-pg-1 p{
+        position: absolute;
+        left: 5px;
+        width:160px;
+        margin-top: 2.5rem;
+    } 
+    #deg-3rd-lyr img{
+       position: absolute;
+       top: 3rem;
+    }
+    .sec-third-lyr{
+        position: absolute;
+         right: 18px;
+        
     }
    
 
