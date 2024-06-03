@@ -14,7 +14,7 @@ body{
 .nav-sec{
     display: flex;
     padding: 20px;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
     width: 80%;
     margin-left: 8rem;
 }
@@ -47,11 +47,11 @@ body{
 }
 nav{
     display: inline-flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: space-around;
 }
 nav ul{
-    border: 1px solid rgb(226, 43, 226);
+    /* border: 1px solid rgb(226, 43, 226); */
     margin-left: 2rem;
 }
 nav ul li{
@@ -102,12 +102,12 @@ button{
     grid-template-rows:12px;
     width: 100%;
     height: 130vh;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .sec-bx{
     width: 50%;
     height: 130vh;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .head-bx h1,
 .sub-ttl-bx p,
@@ -118,13 +118,14 @@ button{
     font-style: italic;
     margin-left: 10rem;
     position: relative;
+    margin-top: 20px;
 
 }
 .head-bx h1{
     font-weight: 900;
     font-size: 3rem;
     width: 600px;
-    margin-top: 16%;
+    margin-top: 5%;
 }
 .sub-ttl-bx p{
     font-weight: 400;
@@ -133,7 +134,6 @@ button{
     margin-top: 2rem;
     color: rgba(0, 0, 0, 1);
 
-    ;
 }
 
 .bg-design{
@@ -152,7 +152,7 @@ button{
     right: 5rem;
     top:10%;
     transform: rotate(-20deg);
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .second-lyr, .third-lyr, .fourth-lyr,
 .design2{
@@ -224,7 +224,7 @@ button{
 .feature-sec .box{
     width:50%;
     height: 100vh;
-    border: 1px solid palevioletred;
+    /* border: 1px solid palevioletred; */
 }
 .dsg, .lyr{
     display: grid;
@@ -247,7 +247,7 @@ button{
 
 .feature-page-title {
     padding: 2rem 0px 0px 20px; 
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
 }
 .feature-page-title span{
     color:  #FF5555;
@@ -323,7 +323,8 @@ button{
       align-items: center;
       margin-left: 10px;
       width: 100%;
-      /* height: 30vh; */
+      margin-bottom: 5px;
+      
     }
     .title-sec{
         display: inline-flex;
@@ -471,6 +472,7 @@ button{
     font-weight: 100;
 
   }
+}
 
 /* tablet*/
   @media screen and (min-width: 768px) and (max-width:1024px){
@@ -554,9 +556,6 @@ button{
       position: absolute;
       left: 20%;
       top:0px;
-    }
-  
+    }  
    
   }
-
-}
